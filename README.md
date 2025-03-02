@@ -1,27 +1,27 @@
 # Kofi Kinara ☕
 
-## 🌍 Live Demo  
+## 🌍 Live Demo
+
 **Experience Kofi Kinara here:** [Kofi Kinara](https://kofi-kinara.vercel.app/)
 
-*Discover, List, and Review Cafes in Hyderabad*  
+_Discover, List, and Review Cafes in Hyderabad_
 
-Kofi Kinara is an open-source, community-driven platform where coffee lovers can explore and share their favorite cafes in Hyderabad. Whether you're looking for the perfect espresso or a cozy ambiance, Kofi Kinara brings all Hyderabad cafes together in one place.  
+Kofi Kinara is an open-source, community-driven platform where coffee lovers can explore and share their favorite cafes in Hyderabad. Whether you're looking for the perfect espresso or a cozy ambiance, Kofi Kinara brings all Hyderabad cafes together in one place.
 
-Built with *Next.js, Tailwind CSS, and TypeScript*, this project aims to provide a seamless and user-friendly experience for both cafe explorers and reviewers.
+Built with _Next.js, Tailwind CSS, and TypeScript_, this project aims to provide a seamless and user-friendly experience for both cafe explorers and reviewers.
 
 ## Features
 
-- 📍 *Discover Cafes* – Find the best coffee spots in Hyderabad.  
-- ✍️ *List a Cafe* – Add new cafes to the platform for others to explore.  
-- ⭐ *Review Cafes* – Share your experiences and rate cafes to help others choose.  
-- 🌍 *Community-Driven* – Open-source and constantly evolving with new features!  
+- 📍 _Discover Cafes_ – Find the best coffee spots in Hyderabad.
+- ✍️ _List a Cafe_ – Add new cafes to the platform for others to explore.
+- ⭐ _Review Cafes_ – Share your experiences and rate cafes to help others choose.
+- 🌍 _Community-Driven_ – Open-source and constantly evolving with new features!
 
 ## Tech Stack
 
-- *Frontend:* Next.js, Tailwind CSS, TypeScript  
-- *Backend:* (Coming soon)  
-- *Database:* (Coming soon)  
-
+- _Frontend:_ Next.js, Tailwind CSS, TypeScript
+- _Backend:_ (Coming soon)
+- _Database:_ (Coming soon)
 
 ## Contributing
 
@@ -32,6 +32,11 @@ We welcome contributions from the community! Check out our [Contributing Guideli
 - Follow coding best practices.
 - Submit pull requests with clear commit messages.
 - Report bugs and suggest features via GitHub Issues.
+
+## Code of Conduct
+
+This project adheres to the [Contributor Covenant](CODE_OF_CONDUCT.md).  
+By participating, you agree to abide by its terms.
 
 ## License
 
@@ -44,7 +49,7 @@ Check the [LICENSE](./LICENSE) file for details.
 
 ## Contact
 
-Created by *Adnan Memos & Sanjana Masam*  
+Created by _Adnan Memos & Sanjana Masam_
 
-📧 *Email:* [adn.memos@gmail.com](mailto:adn.memos@gmail.com) | [sanjanamasam1210@gmail.com](mailto:sanjanamasam1210@gmail.com)  
-🌍 *GitHub:* [Kofi Kinara Repository](https://github.com/Adnan-Memos/Kofi-Kinara) 
+📧 _Email:_ [adn.memos@gmail.com](mailto:adn.memos@gmail.com) | [sanjanamasam1210@gmail.com](mailto:sanjanamasam1210@gmail.com)  
+🌍 _GitHub:_ [Kofi Kinara Repository](https://github.com/Adnan-Memos/Kofi-Kinara)

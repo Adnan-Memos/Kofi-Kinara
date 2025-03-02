@@ -81,6 +81,10 @@ refactor: Refactored existing code
 
 ---
 
+## Community Guidelines
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+
 ## Community and Support
 
 If you have any questions or need help, feel free to reach out:
