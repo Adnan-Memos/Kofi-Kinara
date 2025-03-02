@@ -50,8 +50,9 @@ git push origin feature-branch-name
 
 Go to the original repository on GitHub and open a Pull Request.
 
-- Provide a clear description of your changes.
-- Mention any related issue numbers.
+- Use this [Pull Request Template](./.github/PULL_REQUEST_TEMPLATE.md)\*\* when submitting a PR.
+- Ensure your PR message follows the format in the template.
+- Submit the PR, and we’ll review it soon!
 
 ---
 
