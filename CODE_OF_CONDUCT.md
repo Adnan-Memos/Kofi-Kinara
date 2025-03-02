@@ -20,7 +20,7 @@ Examples of **unacceptable behavior**:
 
 ## Enforcement
 
-Instances of unacceptable behavior may be reported to the project maintainers at adn.memos@gmail and sanjanamasam1210@gmail.com. All complaints will be reviewed and addressed promptly. Maintainers will respect confidentiality when handling reports.
+Instances of unacceptable behavior may be reported to the project maintainers at adn.memos@gmail.com and sanjanamasam1210@gmail.com. All complaints will be reviewed and addressed promptly. Maintainers will respect confidentiality when handling reports.
 
 ## Attribution
 
