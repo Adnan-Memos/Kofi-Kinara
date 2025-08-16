@@ -51,5 +51,5 @@ Check the [LICENSE](./LICENSE) file for details.
 
 Created by _Adnan Memos & Sanjana Masam_
 
-📧 _Email:_ [adn.memos@gmail.com](mailto:adn.memos@gmail.com) | [sanjanamasam1210@gmail.com](mailto:sanjanamasam1210@gmail.com)  
+📧 _Email:_ [adn.memos@gmail.com](mailto:adn.memos@gmail.com)
 🌍 _GitHub:_ [Kofi Kinara Repository](https://github.com/Adnan-Memos/Kofi-Kinara)
