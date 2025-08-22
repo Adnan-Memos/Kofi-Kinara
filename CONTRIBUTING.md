@@ -11,9 +11,9 @@ Not sure where to start? Here are a few ways you can contribute:
 
 ## Our Workflow
 
-We use a `main` and `production` branch workflow.
+We use a `master` and `production` branch workflow.
 
-*   **`main`:** This is the development branch. All new features and bug fixes should be based on this branch. All pull requests should be made to this branch.
+*   **`master`:** This is the development branch. All new features and bug fixes should be based on this branch. All pull requests should be made to this branch.
 *   **`production`:** This is the release branch. It contains the code that is deployed to production. Only the project owner can merge changes into this branch.
 
 ## Code Contributions
@@ -36,10 +36,10 @@ We use a `main` and `production` branch workflow.
 
 ### Making Your Changes
 
-1.  **Create a new branch from `main`:**
+1.  **Create a new branch from `master`:**
     ```bash
-    git checkout main
-    git pull origin main
+    git checkout master
+    git pull origin master
     git checkout -b <branch-name>
     ```
     Please follow the branch naming convention described below.
@@ -80,7 +80,7 @@ Fixes #123
     git push origin <branch-name>
     ```
 
-5.  **Create a pull request to `main`:** Go to the [pull requests page](https://github.com/Adnan-Memos/Kofi-Kinara/pulls) of the repository and click the "New pull request" button. Make sure the base branch is `main`.
+5.  **Create a pull request to `master`:** Go to the [pull requests page](https://github.com/Adnan-Memos/Kofi-Kinara/pulls) of the repository and click the "New pull request" button. Make sure the base branch is `master`.
 
 ### Branch Naming Convention
 

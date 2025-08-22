@@ -28,17 +28,6 @@ export default function Home() {
               guide to it all. Enjoy the best of the city, one cup at a time.
             </p>
           </div>
-
-          {/* Right Side: Image */}
-          <div className="flex justify-center w-full md:w-auto">
-            <Image
-              src="/logo.svg"
-              alt="Coffee Cup"
-              width={180}
-              height={80}
-              className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px]"
-            />
-          </div>
         </div>
 
         {/* Featured Cafes and Brew Guides Section */}

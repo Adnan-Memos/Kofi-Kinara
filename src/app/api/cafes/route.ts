@@ -26,6 +26,7 @@ export async function GET(req: NextRequest) {
       nextPageToken: data.next_page_token || null,
     });
   } catch (err) {
+    console.error(err);
     return NextResponse.json({ error: 'Failed to fetch cafes' }, { status: 500 });
   }
 }
