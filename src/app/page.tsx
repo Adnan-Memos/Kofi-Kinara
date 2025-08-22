@@ -32,7 +32,7 @@ export default function Home() {
           {/* Right Side: Image */}
           <div className="flex justify-center w-full md:w-auto">
             <Image
-              src="/log.svg"
+              src="/logo.svg"
               alt="Coffee Cup"
               width={180}
               height={80}

@@ -25,13 +25,7 @@ Built with _Next.js, Tailwind CSS, and TypeScript_, this project aims to provide
 
 ## Contributing
 
-We welcome contributions from the community! Check out our [Contributing Guidelines](CONTRIBUTING.md) to get started.
-
-### Contribution Guidelines
-
-- Follow coding best practices.
-- Submit pull requests with clear commit messages.
-- Report bugs and suggest features via GitHub Issues.
+We welcome contributions from the community! We're excited to see what you bring to the table. To get started, please read our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Code of Conduct
 

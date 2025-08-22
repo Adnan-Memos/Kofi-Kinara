@@ -17,6 +17,8 @@ export default function Footer() {
           </div>
           <div className="self-center">
             <button
+              title="Scroll to top"
+              aria-label="Scroll to top"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="mt-0"
             >
@@ -82,6 +84,7 @@ export default function Footer() {
             />
             <button
               type="submit"
+              title="Submit newsletter"
               className="absolute right-2 top-1/2 transform -translate-y-1/2"
             >
               <Image

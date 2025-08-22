@@ -1,98 +1,94 @@
 # Contributing to Kofi Kinara
 
-Thank you for your interest in contributing to _Kofi Kinara_! 🚀 We welcome contributions from everyone. Whether it's fixing a bug, adding a feature, or improving documentation, your help is valuable.
+First off, thank you for considering contributing to Kofi Kinara! It's people like you that make the open source community such a great place. We welcome any and all contributions, from bug reports to new features.
 
-## How to Contribute
+## Where to Start
 
-### 1. Fork the Repository
+Not sure where to start? Here are a few ways you can contribute:
 
-Start by forking the repository to your GitHub account.
+*   **Check out our Notion page:** We use Notion to track our issues and features. You can find our Notion page [here](https://www.notion.so/your-notion-page). (Please replace this with your actual Notion page URL).
+*   **Contribute code:** If you want to contribute code, please see the "Code Contributions" section below.
 
-[GitHub Repository](https://github.com/Adnan-Memos/Kofi-Kinara.git)
+## Code Contributions
 
-### 2. Clone the Forked Repository
+### Setting Up Your Development Environment
 
-bash
-git clone https://github.com/YOUR-USERNAME/Kofi-Kinara.git
-cd Kofi-Kinara
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Adnan-Memos/Kofi-Kinara.git
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Kofi-Kinara
+    ```
+3.  **Install the dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Set up your environment variables:** This project requires certain environment variables to be set up to run correctly. You will need to create a `.env` file in the root of the project and add the required environment variables. You can determine which variables are needed by looking at the source code.
 
-### 3. Install Dependencies
+### Making Your Changes
 
-Make sure you have Node.js and npm installed. Then, install the required dependencies:
-bash
-npm install
+1.  **Create a new branch:**
+    ```bash
+    git checkout -b <branch-name>
+    ```
+    Please follow the branch naming convention described below.
 
-### 4. Run the Project Locally
+2.  **Make your changes:** Make your changes to the code and make sure to test them.
 
-Start the development server:
-bash
-npm run dev
+### Commit Message Format
 
-### 5. Create a New Branch
+We use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for our commit messages. This allows us to automatically generate changelogs and release notes.
 
-Before making changes, create a new branch:
-bash
-git checkout -b feature-branch-name
+A commit message should be structured as follows:
 
-### 6. Make Your Changes
+```
+<type>[optional scope]: <description>
 
-- Follow the project's Guidelines.
-- Test your changes before committing.
+[optional body]
 
-### 7. Commit and Push
+[optional footer]
+```
 
-bash
-git add .
-git commit -m "Describe your changes"
-git push origin feature-branch-name
+**Example:**
 
-### 8. Create a Pull Request
+```
+feat: add user authentication
 
-Go to the original repository on GitHub and open a Pull Request.
+This commit adds the ability for users to sign up and log in to the application.
 
-- Use this [Pull Request Template](./.github/PULL_REQUEST_TEMPLATE.md)\*\* when submitting a PR.
-- Ensure your PR message follows the format in the template.
-- Submit the PR, and we’ll review it soon!
+Fixes #123
+```
 
----
+*   **`<type>`:** One of `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`.
+*   **`<description>`:** A short, imperative-tense description of the change.
+*   **`[optional body]`:** A longer, more detailed description of the change.
+*   **`[optional footer]`:** Any additional information, such as issue numbers or breaking changes.
 
-## Contribution Guidelines
+4.  **Push your changes:**
+    ```bash
+    git push origin <branch-name>
+    ```
 
-### 🛠 Code Standards
+5.  **Create a pull request:** Go to the [pull requests page](https://github.com/Adnan-Memos/Kofi-Kinara/pulls) of the repository and click the "New pull request" button.
 
-- Follow best practices for _TypeScript_ and _Next.js_.
-- Use _Tailwind CSS_ for styling.
-- Keep code _clean and modular_.
+### Branch Naming Convention
 
-### 📜 Commit Message Guidelines
+We use the following branch naming convention:
 
-Use clear and descriptive commit messages:
+`<type>/<notion-task-id>`
 
-feat: Added new feature
-fix: Fixed a bug in listing cafes
-docs: Updated documentation
-style: Improved UI styling
-refactor: Refactored existing code
+*   **`<type>`:** One of `feat`, `fix`, `docs`, `style`, `refactor`, `test`.
+*   **`<notion-task-id>`:** The ID of the task in Notion.
 
-### 🚀 Issues and Feature Requests
+For example: `feat/4a5f6b7c`
 
-- _Bug Reports:_ Provide detailed steps to reproduce the issue.
-- _Feature Requests:_ Suggest new features with clear reasoning.
-- Check _existing issues_ before creating a new one.
 
----
+## Code of Conduct
 
-## Community Guidelines
+We have a [Code of Conduct](CODE_OF_CONDUCT.md) that we expect all contributors to follow. Please make sure you have read it before contributing.
 
-Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+## License
 
-## Community and Support
-
-If you have any questions or need help, feel free to reach out:
-
-📧 _Email:_
-
-- adn.memos@gmail.com
-- sanjanamasam1210@gmail.com
-
-We appreciate your contributions and look forward to building Kofi Kinara together! ☕🎉
+By contributing to Kofi Kinara, you agree that your contributions will be licensed under the [Apache 2.0 + Commons Clause](./LICENSE) license.
