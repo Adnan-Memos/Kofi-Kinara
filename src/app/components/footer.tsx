@@ -12,7 +12,7 @@ export default function Footer() {
               We&apos;d love to hear from you!
             </h2>
             <p className=" text-xs sm:text-sm md:text-base">
-              Created by Adnan Memos & Sanjana Masam
+              Created by Adnan Memos
             </p>
           </div>
           <div className="self-center">

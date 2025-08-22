@@ -1,10 +1,6 @@
-name: CI
+name: Master Branch PR Checks
 
 on:
-  push:
-    branches:
-      - master
-      - production
   pull_request:
     branches:
       - master
