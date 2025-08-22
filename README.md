@@ -6,7 +6,7 @@
 
 _Discover, List, and Review Cafes in Hyderabad_
 
-Kofi Kinara is an open-source, community-driven platform where coffee lovers can explore and share their favorite cafes in Hyderabad. Whether you're looking for the perfect espresso or a cozy ambiance, Kofi Kinara brings all Hyderabad cafes together in one place.
+Kofi Kinara is an community-driven platform where coffee lovers can explore and share their favorite cafes in Hyderabad. Whether you're looking for the perfect espresso or a cozy ambiance, Kofi Kinara brings all Hyderabad cafes together in one place.
 
 Built with _Next.js, Tailwind CSS, and TypeScript_, this project aims to provide a seamless and user-friendly experience for both cafe explorers and reviewers.
 
@@ -43,7 +43,7 @@ Check the [LICENSE](./LICENSE) file for details.
 
 ## Contact
 
-Created by _Adnan Memos & Sanjana Masam_
+Created by _Adnan Memos
 
 📧 _Email:_ [adn.memos@gmail.com](mailto:adn.memos@gmail.com)
 🌍 _GitHub:_ [Kofi Kinara Repository](https://github.com/Adnan-Memos/Kofi-Kinara)
