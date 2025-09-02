@@ -17,10 +17,10 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-start justify-between gap-4">
           {/* Left Side: Text Content */}
           <div className="w-full md:w-[58%]">
-            <h1 className="font-hind text-[48px] sm:text-[64px] lg:text-[108px] mt-12 font-medium">
+            <h1 className="font-Anek Devanagari text-[48px] sm:text-[64px] lg:text-[108px] mt-12 font-bold">
               कॉफी किनारा
             </h1>
-            <p className="font-manrope font-regular text-base sm:text-lg lg:text-xl text-justify leading-relaxed">
+            <p className="font-manrope font-bold text-base sm:text-lg lg:text-xl text-justify leading-relaxed">
               From aromatic brews to cozy vibes, Hyderabad&apos;s cafes have
               something for everyone. We&apos;ve brought together the finest
               cafes for every mood and moment. Whether you&apos;re a coffee
@@ -33,9 +33,9 @@ export default function Home() {
         {/* Featured Cafes and Brew Guides Section */}
         <div className="flex flex-col md:flex-row items-stretch justify-between mt-14 gap-8">
           {/* Left Box */}
-          <div className="w-full md:w-[49%] border-2 md:border-3 border-black rounded-xl p-6 min-h-[300px] md:min-h-[450px] lg:min-h-[550px] flex flex-col justify-between items-start">
+          <div className="w-full md:w-[49%] border-2 md:border-3 border-[#5B220E] rounded-xl p-6 min-h-[300px] md:min-h-[450px] lg:min-h-[550px] flex flex-col justify-between items-start">
             <Image
-              src="/logo1.svg"
+              src="/Group 4.svg"
               alt="Kofi Kinara Logo 1"
               width={180}
               height={80}
@@ -47,9 +47,9 @@ export default function Home() {
           </div>
 
           {/* Right Box */}
-          <div className="w-full md:w-[49%] border-2 md:border-3 border-black rounded-xl p-6 min-h-[300px]  lg:min-h-[550px] flex flex-col justify-between items-start">
+          <div className="w-full md:w-[49%] border-2 md:border-3 border-[#5B220E] rounded-xl p-6 min-h-[300px]  lg:min-h-[550px] flex flex-col justify-between items-start">
             <Image
-              src="/cups1.svg"
+              src="/Group 4.svg"
               alt="Kofi Kinara Logo 2"
               width={180}
               height={80}
@@ -66,7 +66,7 @@ export default function Home() {
           {/* Logo Section */}
           <div className="mb-8">
             <Image
-              src="/croissant.svg"
+              src="/croissant2.svg"
               alt="Kofi Kinara Logo"
               width={180}
               height={80}
@@ -89,7 +89,7 @@ export default function Home() {
           {/* Coffee Cup Card Section */}
           <div>
             <Image
-              src="/mainpage1.svg"
+              src="/coffecupillustration.svg"
               alt="Coffee Cup Illustration"
               width={1200}
               height={600}
@@ -103,7 +103,7 @@ export default function Home() {
         <Bannerbelow />
 
         {/* Join Community Section */}
-        <div className="flex flex-col items-center justify-center py-16 px-4 bg-[#BEC1A7] text-black font-manrope mb-10">
+        <div className="flex flex-col items-center justify-center py-16 px-4 bg-[#E5DFCE] text-[#5B220E] font-manrope mb-10">
           {/* Header Section */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 text-center ">
             {/* Left Text Column */}
@@ -119,7 +119,7 @@ export default function Home() {
             {/* Coffee Pot Image */}
             <div className="flex-shrink-0">
               <Image
-                src="/pot.svg"
+                src="coffeblender.svg"
                 alt="Coffee Pot"
                 width={120}
                 height={120}
@@ -142,16 +142,16 @@ export default function Home() {
           <p className="text-base sm:text-lg lg:text-xl font-medium mb-8 mt-8 text-center max-w-[800px]">
             Discover, Share, and Celebrate Coffee Together.
           </p>
-
+          
           {/* Buttons Section */}
           <div className="flex flex-row gap-2 sm:gap-10 justify-center items-center font-bold mt-6 w-full max-w-[800px]">
             <Link href="/share">
-              <button className="px-6 sm:px-12 md:px-24 py-4 sm:py-6 bg-black text-[#bebfa8] text-sm sm:text-base md:text-2xl rounded-md hover:bg-gray-800 transition-colors whitespace-nowrap">
+              <button className="px-6 sm:px-12 md:px-24 py-4 sm:py-6 bg-[#5B220E] text-[#E5DFCE] text-sm sm:text-base md:text-2xl rounded-md hover:bg-gray-800 transition-colors whitespace-nowrap">
                 Review a Cafe!
               </button>
             </Link>
             <Link href="/cafe">
-              <button className="px-6 sm:px-12 md:px-24 py-4 sm:py-6 bg-black text-[#bebfa8] text-sm sm:text-base md:text-2xl rounded-md hover:bg-gray-800 transition-colors whitespace-nowrap">
+              <button className="px-6 sm:px-12 md:px-24 py-4 sm:py-6 bg-[#5B220E] text-[#E5DFCE] text-sm sm:text-base md:text-2xl rounded-md hover:bg-gray-800 transition-colors whitespace-nowrap">
                 Add a New Cafe
               </button>
             </Link>
